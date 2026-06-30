@@ -39,7 +39,7 @@ export default function Navbar({ links, logo, whatsapp, whatsappLabel }: Props) 
               width={480}
               height={160}
               priority
-              className="h-11 w-auto max-w-[148px] object-contain object-left sm:h-14 sm:max-w-[200px]"
+              className="h-16 w-auto max-w-[200px] object-contain object-left sm:h-20 sm:max-w-[280px]"
             />
           ) : (
             <span className="font-display text-xl font-semibold text-maroon">
