@@ -1,0 +1,285 @@
+{
+  "site": {
+    "title": "The Pachadi Project — Homemade Pickles Crafted with Love",
+    "description": "Authentic homemade pachadis made from time-honoured recipes, premium ingredients, and handcrafted spices. Small-batch veg and non-veg pickles from Hyderabad.",
+    "phone": "9701973064",
+    "whatsapp": "919701973064",
+    "location": "Hyderabad, Telangana",
+    "email": ""
+  },
+  "branding": {
+    "logo": "/uploads/logo.png",
+    "heroTextile": "/uploads/hero-textile.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "#collection",
+        "label": "Collection"
+      },
+      {
+        "href": "#menu",
+        "label": "Menu"
+      },
+      {
+        "href": "#story",
+        "label": "Our Story"
+      },
+      {
+        "href": "#testimonials",
+        "label": "Reviews"
+      },
+      {
+        "href": "#contact",
+        "label": "Contact"
+      }
+    ],
+    "whatsappLabel": "WhatsApp Us"
+  },
+  "heroBanners": [
+    {
+      "id": "signature",
+      "eyebrow": "Tradition in every jar",
+      "title": "Homemade Pickles",
+      "titleAccent": "Crafted with Love",
+      "description": "Experience the rich flavours of authentic homemade pachadis made from time-honoured recipes, premium ingredients, and handcrafted spices — packed fresh in small batches.",
+      "image": "/uploads/hero-product.jpeg",
+      "imageAlt": "The Pachadi Project homemade pickle jars and bowls",
+      "primaryCta": {
+        "label": "Explore the Collection",
+        "href": "#collection"
+      },
+      "secondaryCta": {
+        "label": "Order on WhatsApp",
+        "href": "https://wa.me/919701973064"
+      },
+      "tint": "mango"
+    },
+    {
+      "id": "nonveg",
+      "eyebrow": "Non-Veg Pickles",
+      "title": "Bold. Fiery.",
+      "titleAccent": "Irresistible.",
+      "description": "Chicken, Mutton & Prawns pachadi — slow-cooked meat in fiery Andhra masala. Tender pieces, spot-on spice, and the kind of flavour that finishes an extra plate of rice.",
+      "image": "/uploads/chicken.png",
+      "imageAlt": "Chicken Pachadi — The Pachadi Project",
+      "primaryCta": {
+        "label": "Shop Non-Veg",
+        "href": "#collection"
+      },
+      "secondaryCta": {
+        "label": "Order on WhatsApp",
+        "href": "https://wa.me/919701973064"
+      },
+      "tint": "terracotta"
+    },
+    {
+      "id": "veg",
+      "eyebrow": "Veg Pickles",
+      "title": "The Taste",
+      "titleAccent": "Of Andhra.",
+      "description": "Mango, Gongura & Tomato pachadis made the way mum makes them — simple, authentic, and bursting with the flavours of home. A spoonful is all it takes.",
+      "image": "/uploads/gongura.png",
+      "imageAlt": "Gongura Pachadi — The Pachadi Project",
+      "primaryCta": {
+        "label": "Shop Veg Pickles",
+        "href": "#collection"
+      },
+      "secondaryCta": {
+        "label": "View Our Menu",
+        "href": "#menu"
+      },
+      "tint": "gongura"
+    },
+    {
+      "id": "coastal",
+      "eyebrow": "A Coastal Delight",
+      "title": "Prawns",
+      "titleAccent": "Pachadi.",
+      "description": "Succulent prawns in a rich, tangy masala — a coastal classic that pairs perfectly with hot rice, roti, or even straight from the jar. Small batch, big flavour.",
+      "image": "/uploads/prawn.png",
+      "imageAlt": "Prawns Pachadi — The Pachadi Project",
+      "primaryCta": {
+        "label": "Try Prawns Pachadi",
+        "href": "#collection"
+      },
+      "secondaryCta": {
+        "label": "Order on WhatsApp",
+        "href": "https://wa.me/919701973064"
+      },
+      "tint": "olive"
+    },
+    {
+      "id": "story",
+      "eyebrow": "Our Story",
+      "title": "Because life's too short",
+      "titleAccent": "for average pickles.",
+      "description": "It started with one question: \"Can we take another jar home?\" Now we're sharing mum's recipes with the world — no shortcuts, no compromise, just homemade pachadi.",
+      "image": "/uploads/story-danish.png",
+      "imageAlt": "The Pachadi Project — homemade pickles from Hyderabad",
+      "primaryCta": {
+        "label": "Read Our Story",
+        "href": "#story"
+      },
+      "secondaryCta": {
+        "label": "Order on WhatsApp",
+        "href": "https://wa.me/919701973064"
+      },
+      "tint": "mango"
+    }
+  ],
+  "trustStrip": {
+    "tagline": "Made the traditional way, just like at home",
+    "points": [
+      "100% Natural",
+      "No Preservatives",
+      "Traditional Recipe",
+      "Premium Ingredients",
+      "Small Batch Preparation",
+      "Halal"
+    ]
+  },
+  "productsSection": {
+    "eyebrow": "Our Signature Collection",
+    "title": "One spoon, and you'll understand the fuss."
+  },
+  "products": [
+    {
+      "id": "chicken",
+      "name": "Chicken Pachadi",
+      "tagline": "Bold. Fiery. Irresistible.",
+      "category": "nonveg",
+      "image": "/uploads/chicken.png",
+      "prices": [
+        {
+          "weight": "250g",
+          "price": 399
+        },
+        {
+          "weight": "500g",
+          "price": 699
+        }
+      ]
+    },
+    {
+      "id": "mutton",
+      "name": "Mutton Pachadi",
+      "tagline": "Rich Heritage in Every Spoon.",
+      "category": "nonveg",
+      "image": "/uploads/mutton.png",
+      "prices": [
+        {
+          "weight": "250g",
+          "price": 499
+        },
+        {
+          "weight": "500g",
+          "price": 949
+        }
+      ]
+    },
+    {
+      "id": "prawn",
+      "name": "Prawns Pachadi",
+      "tagline": "A Coastal Delight.",
+      "category": "nonveg",
+      "image": "/uploads/prawn.png",
+      "prices": [
+        {
+          "weight": "250g",
+          "price": 449
+        },
+        {
+          "weight": "500g",
+          "price": 849
+        }
+      ]
+    },
+    {
+      "id": "mango",
+      "name": "Mango Pachadi",
+      "tagline": "A Burst of Tradition.",
+      "category": "veg",
+      "image": "/uploads/mango.png",
+      "prices": [
+        {
+          "weight": "250g",
+          "price": 199
+        }
+      ]
+    },
+    {
+      "id": "gongura",
+      "name": "Gongura Pachadi",
+      "tagline": "The Taste Of Andhra.",
+      "category": "veg",
+      "image": "/uploads/gongura.png",
+      "prices": [
+        {
+          "weight": "250g",
+          "price": 239
+        }
+      ]
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato Pachadi",
+      "tagline": "Simple. Authentic. Delicious.",
+      "category": "veg",
+      "image": "/uploads/tomato.png",
+      "prices": [
+        {
+          "weight": "250g",
+          "price": 229
+        }
+      ]
+    }
+  ],
+  "menu": {
+    "eyebrow": "Price List",
+    "title": "Our Menu",
+    "headerTagline": "Made the traditional way, just like at home ♥",
+    "pairings": [
+      "Rice",
+      "Roti",
+      "Dal Rice",
+      "Khichdi",
+      "Travel Meals"
+    ],
+    "footerQuote": "One spoon is enough to finish an extra plate of rice."
+  },
+  "ourStory": {
+    "eyebrow": "Our Story",
+    "title": "It all started with one question we kept hearing from family and friends:",
+    "contentHtml": "<p class=\"story-quote\"><em>\"Can we take another jar home?\"</em></p><p>For years, our mum has been making the kind of pachadis that disappear before the meal is over. Every family gathering, every festive occasion, every visit home ended with people asking for an extra bottle to take back with them.</p><p>The truth is, we grew up believing everyone had pickles this good. They don't.</p><p>That's when we realised something special had been sitting on our dining table all along. So we decided to share it with the world.</p><p><strong>The Pachadi Project</strong> was born from one simple idea: <strong>no one should miss out on the taste of truly homemade pachadi.</strong></p><p>Every jar is prepared using traditional family recipes, premium ingredients, and the same love and care that has gone into every batch for years. No shortcuts. No compromise. Just authentic flavours that remind you of home.</p><p>Whether you're reliving childhood memories or tasting homemade pachadi for the very first time, we're here to make sure you never have to wonder what you've been missing.</p><p><strong>Because life's too short for average pickles.</strong></p><p>Welcome to <strong>The Pachadi Project</strong>—where tradition meets spice, and FOMO ends with the very first spoonful. ❤️</p>",
+    "images": [
+      "/uploads/story-danish.png",
+      "/uploads/story-rajput.png"
+    ]
+  },
+  "testimonialsSection": {
+    "eyebrow": "Testimonials",
+    "title": "What our jar-hoarders say",
+    "items": [
+      {
+        "id": "danish",
+        "name": "Danish Zubairy",
+        "quote": "I am not Exaggerating, This is the tastiest Achaar Possible...",
+        "rating": 5
+      },
+      {
+        "id": "rajput",
+        "name": "Rajput",
+        "quote": "Just tried the Chicken, Mutton and Prawns pickle. They are absolutely delicious! The meat pieces were cooked perfectly and very tender spice levels were also spot on. Will definetly order again.",
+        "rating": 5
+      }
+    ]
+  },
+  "footer": {
+    "description": "Where tradition meets spice, and FOMO ends with the very first spoonful. Homemade, small-batch pickles — veg and non-veg — crafted the way your mum makes them.",
+    "contactTitle": "Get in touch",
+    "whatsappButtonLabel": "Order on WhatsApp",
+    "facebookUrl": "",
+    "instagramUrl": ""
+  }
+}

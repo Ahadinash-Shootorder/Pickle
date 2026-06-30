@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #fdf9f3;
+  --color-cream-soft: #f7f0e4;
+  --color-mango-light: #fff6e8;
+  --color-gongura-light: #f2f7ea;
+  --color-ink: #3d3229;
+  --color-terracotta: #c45c3e;
+  --color-terracotta-light: #e8b5a3;
+  --color-terracotta-dark: #9e4529;
+  --color-maroon: #a03338;
+  --color-maroon-dark: #7a262a;
+  --color-olive: #6b8f4e;
+  --color-olive-light: #c8dbb0;
+  --color-olive-dark: #4f6b38;
+  --color-mustard: #e8b84a;
+  --color-mustard-soft: #f5d98a;
+  --color-pickle-green: #8aab5c;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-cream-soft: var(--color-cream-soft);
+  --color-mango-light: var(--color-mango-light);
+  --color-gongura-light: var(--color-gongura-light);
+  --color-ink: var(--color-ink);
+  --color-terracotta: var(--color-terracotta);
+  --color-terracotta-light: var(--color-terracotta-light);
+  --color-terracotta-dark: var(--color-terracotta-dark);
+  --color-maroon: var(--color-maroon);
+  --color-maroon-dark: var(--color-maroon-dark);
+  --color-olive: var(--color-olive);
+  --color-olive-light: var(--color-olive-light);
+  --color-olive-dark: var(--color-olive-dark);
+  --color-mustard: var(--color-mustard);
+  --color-mustard-soft: var(--color-mustard-soft);
+  --color-pickle-green: var(--color-pickle-green);
+
+  --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052, serif;
+  --font-body: "Avenir Next", Avenir, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-marquee-fast: marquee 22s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display), serif;
+}
+
+::selection {
+  background: var(--color-mustard-soft);
+  color: var(--color-maroon-dark);
+}
+
+.bg-spice-texture {
+  background-image:
+    radial-gradient(circle at 18% 22%, rgba(232, 184, 74, 0.12) 0, transparent 42%),
+    radial-gradient(circle at 82% 70%, rgba(107, 143, 78, 0.10) 0, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(196, 92, 62, 0.06) 0, transparent 55%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .animate-marquee-fast {
+    animation: none !important;
+  }
+}
+
+.story-content p {
+  margin-bottom: 1rem;
+}
+
+.story-content p:last-child {
+  margin-bottom: 0;
+}
+
+.story-content strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.story-content em {
+  font-family: var(--font-display), serif;
+  font-style: italic;
+  color: var(--color-maroon);
+  font-size: 1.125rem;
+}
